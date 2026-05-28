@@ -1,0 +1,28 @@
+#the following codes ignore python cache files.
+__pycache__/
+*.py[cod]
+
+# this would ignore virtual environments
+.venv/
+venv/
+env/
+
+# local environment files
+.env
+
+# ignore real dataset images because datasets can be very large.
+# keep the folder structure with .gitkeep files.
+dataset/train/cats/*
+dataset/train/dogs/*
+dataset/validation/cats/*
+dataset/validation/dogs/*
+!dataset/train/cats/.gitkeep
+!dataset/train/dogs/.gitkeep
+!dataset/validation/cats/.gitkeep
+!dataset/validation/dogs/.gitkeep
+model/*
+!model/.gitkeep
+
+# user images for local predictions
+images/*
+!images/.gitkeep
