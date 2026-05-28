@@ -57,6 +57,9 @@ In this project:
     # 2-Install requirements.
     pip install -r requirements.txt
 
+    Run:
+    python main.py
+
     # Beginner Notes
 
      more training images usually improve results.
