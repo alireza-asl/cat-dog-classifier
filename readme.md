@@ -1,3 +1,5 @@
+This project is intended for educational purposes and uses a small dataset to demonstrate image classification with CNNs and TensorFlow. During experimentation, the model was trained with 5, 10, and 15 epochs. While increasing the number of epochs improved training accuracy, it also increased the risk of overfitting due to the limited dataset size. As a result, 5 epochs provided more stable validation performance and were selected for this project. The impact of different epoch values can be observed through the generated training and validation accuracy/loss graphs included in the project.
+
 
 # project Structure
 
